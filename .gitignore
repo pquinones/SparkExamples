@@ -1,7 +1,16 @@
 # Leave entire .idea folder and project folder
 */.idea/*
 *project
-*/*.iml
+*/*.imli
+*/.bsp/*
+*/.bloop/*
+*/.metals/*
+*/.vscode/*
+*.idea
+
+# Leave others
+**/META-INF
+*.DS_Store
 
 # Leave log files
 *app-logs*
@@ -12,3 +21,4 @@
 */metastore_db*
 */spark-warehouse*
 */output*
+*/out*
